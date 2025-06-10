@@ -52,18 +52,34 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-section text-white min-h-[70vh] flex items-center">
-        <div class="bg-black/40 w-full h-full min-h-[70vh] flex items-center">
-            <div class="container mx-auto px-6 text-center">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4">Transforma tu hogar en un santuario de bienestar</h1>
-                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Disfruta de masajes, meditación y aromaterapia sin salir de casa. Lujo, comodidad y relajación a tu puerta.</p>
-                <a href="https://wa.me/5217222648461?text=Hola,%20me%20gustaría%20reservar%20una%20sesión." target="_blank" class="bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-opacity-90 transition-all transform hover:scale-105 inline-flex items-center space-x-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                    <span>Agenda tu experiencia por WhatsApp</span>
-                </a>
-            </div>
-        </div>
-    </section>
+<section class="hero-section relative text-white min-h-screen md:min-h-[70vh] flex items-center">
+    <!-- Imagen de fondo -->
+    <img src="ruta/hero.jpg" alt="Wellness hero" class="absolute inset-0 w-full h-full object-cover md:object-center" loading="lazy">
+    <!-- Capa oscura -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <div class="relative container mx-auto px-4 sm:px-6 text-center">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-4">
+            Transforma tu hogar en un santuario de bienestar
+        </h1>
+
+        <p class="text-base sm:text-lg md:text-xl max-w-md sm:max-w-2xl mx-auto mb-6 sm:mb-8">
+            Disfruta de masajes, meditación y aromaterapia sin salir de casa. Lujo, comodidad y relajación a tu puerta.
+        </p>
+
+        <a href="https://wa.me/5217222648461?text=Hola,%20me%20gustaría%20reservar%20una%20sesión."
+           target="_blank"
+           class="bg-accent text-white w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg inline-flex items-center justify-center space-x-2 hover:bg-opacity-90 transition-all transform hover:scale-105">
+            <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            <span>Agenda tu experiencia por WhatsApp</span>
+        </a>
+    </div>
+</section>
+
 
     <!-- Value Proposition Section -->
     <section id="propuesta" class="py-20 bg-beige">
