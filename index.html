@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piel y Alma - Bienestar a Domicilio</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fff5ee; /* Beige background */
+        }
+        /* Custom colors for easy use */
+        .bg-sage { background-color: #A2AE9D; }
+        .bg-beige { background-color: #fff5ee; }
+        .text-sage { color: #A2AE9D; }
+        .text-accent { color: #f8ab9b; }
+        .bg-accent { background-color: #f8ab9b; }
+        .border-accent { border-color: #f8ab9b; }
+
+        .hero-section {
+            background-image: url('https://img.freepik.com/premium-photo/spa-accessories-table-with-spa-background-viewed-up-close_872147-104664.jpg?w=1380');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-sage">Piel y Alma Spa</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#servicios" class="text-gray-600 hover:text-sage transition-colors">Servicios</a>
+                <a href="#propuesta" class="text-gray-600 hover:text-sage transition-colors">Nosotros</a>
+                <a href="#promo" class="text-gray-600 hover:text-sage transition-colors">Promoción</a>
+            </nav>
+            <a href="https://wa.me/5217222648461?text=Hola,%20me%20gustaría%20reservar%20una%20sesión." target="_blank" class="bg-sage text-white px-6 py-2 rounded-full hover:opacity-90 transition-opacity hidden md:block">
+                Reservar
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white min-h-[70vh] flex items-center">
+        <div class="bg-black/40 w-full h-full min-h-[70vh] flex items-center">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Transforma tu hogar en un santuario de bienestar</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Disfruta de masajes, meditación y aromaterapia sin salir de casa. Lujo, comodidad y relajación a tu puerta.</p>
+                <a href="https://wa.me/5217222648461?text=Hola,%20me%20gustaría%20reservar%20una%20sesión." target="_blank" class="bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-opacity-90 transition-all transform hover:scale-105 inline-flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    <span>Agenda tu experiencia por WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Section -->
+    <section id="propuesta" class="py-20 bg-beige">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Una Propuesta de Valor Única</h2>
+                <p class="text-gray-600 mt-2">"Piel y Alma transforma cualquier espacio en un santuario de bienestar"</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Card 1: 100% a Domicilio -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="bg-sage text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">100% a Domicilio</h3>
+                    <p class="text-gray-600">Llevamos toda la experiencia de spa de lujo directamente a tu hogar u oficina, eliminando desplazamientos.</p>
+                </div>
+                <!-- Card 2: Integración Holística -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                     <div class="bg-sage text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path><path d="M12 12a10 10 0 0 0 10 10V12H12z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Integración Holística</h3>
+                    <p class="text-gray-600">Unimos masajes, meditación y aromaterapia en una experiencia profesional y envolvente.</p>
+                </div>
+                <!-- Card 3: Personalización Extrema -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                     <div class="bg-sage text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9"></path><path d="M14 17H5"></path><circle cx="17" cy="17" r="3"></circle><circle cx="7" cy="7" r="3"></circle></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Personalización Extrema</h3>
+                    <p class="text-gray-600">Cada aspecto se adapta a ti, desde la presión del masaje hasta las fragancias utilizadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Servicios Principales</h2>
+                <p class="text-gray-600 mt-2">Diseñados para tu máximo bienestar.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-beige p-8 rounded-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-sage mb-3">Masajes Terapéuticos</h3>
+                    <p class="text-gray-600">Relajante, descontracturante, piedras calientes, deportivo, prenatal. Encuentra el alivio que tu cuerpo necesita.</p>
+                </div>
+                 <div class="bg-beige p-8 rounded-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-sage mb-3">Meditación Guiada</h3>
+                    <p class="text-gray-600">Reduce el estrés, concilia el sueño y encuentra tu centro con nuestras sesiones de meditación y cuencos tibetanos.</p>
+                </div>
+                 <div class="bg-beige p-8 rounded-xl border border-gray-200">
+                    <h3 class="text-2xl font-semibold text-sage mb-3">Aromaterapia</h3>
+                    <p class="text-gray-600">Consultas personalizadas, aceites esenciales y difusión ambiental para equilibrar tu mente y espíritu.</p>
+                </div>
+                <div class="bg-beige p-8 rounded-xl border border-gray-200 md:col-span-2 lg:col-span-3">
+                    <h3 class="text-2xl font-semibold text-sage mb-3">Experiencias Integradas</h3>
+                    <p class="text-gray-600">Paquetes premium que combinan todos nuestros servicios para una inmersión total en el bienestar. La experiencia de spa definitiva en tu hogar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotion Section -->
+    <section id="promo" class="py-20 bg-beige">
+        <div class="container mx-auto px-6">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden md:flex items-center">
+                <div class="md:w-1/2 p-8 md:p-12 text-center md:text-left">
+                    <span class="inline-block bg-accent text-white px-4 py-1 rounded-full text-sm font-semibold mb-4">PROMOCIÓN ESPECIAL</span>
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800">¡Tu Primera Sesión con <span class="text-sage">30% de Descuento!</span></h2>
+                    <p class="mt-4 text-gray-600 text-lg">Descubre el poder transformador de nuestros tratamientos con una oferta exclusiva para nuevos clientes.</p>
+                    
+                    <div class="mt-8 space-y-4 text-left">
+                        <div class="flex items-start"><div class="flex-shrink-0 bg-sage text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">✓</div><div><h4 class="font-semibold">Masajes Premium</h4><p class="text-gray-600 text-sm">Técnicas profesionales en la comodidad de tu hogar.</p></div></div>
+                        <div class="flex items-start"><div class="flex-shrink-0 bg-sage text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">✓</div><div><h4 class="font-semibold">Productos Naturales</h4><p class="text-gray-600 text-sm">Aceites y productos orgánicos de la más alta calidad.</p></div></div>
+                        <div class="flex items-start"><div class="flex-shrink-0 bg-sage text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">✓</div><div><h4 class="font-semibold">En Tu Hogar</h4><p class="text-gray-600 text-sm">Sin desplazamientos, máxima comodidad y privacidad.</p></div></div>
+                    </div>
+
+                    <a href="https://pikaso.cdnpk.net/private/production/1984799785/upload.jpeg?token=exp=1762992000~hmac=1bfe3cdd6c32c12629b9d7b6bdaf63f0ea9e4a83235d42cdac1e9b84293245d7">
+                        Reservar Mi Primera Sesión
+                    </a>
+                    <p class="text-xs text-gray-500 mt-3">*Promoción válida solo para nuevos clientes.</p>
+                </div>
+                <div class="md:w-1/2 h-64 md:h-auto">
+                    <img src="https://pikaso.cdnpk.net/private/production/1984799785/upload.jpeg?token=exp=1762992000~hmac=1bfe3cdd6c32c12629b9d7b6bdaf63f0ea9e4a83235d42cdac1e9b84293245d7" alt="Mujer relajada recibiendo un masaje" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-sage text-white">
+        <div class="container mx-auto px-6 py-10 text-center">
+            <p class="text-xl font-semibold mb-2">Piel y Alma</p>
+            <p class="mb-4">Tu santuario personal de paz y relajación.</p>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="hover:opacity-80 transition-opacity">Instagram</a>
+                <a href="#" class="hover:opacity-80 transition-opacity">Facebook</a>
+                <a href="https://wa.me/5217222648461" class="hover:opacity-80 transition-opacity">WhatsApp</a>
+            </div>
+            <p class="text-sm text-beige/80">&copy; 2024 Piel y Alma. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
